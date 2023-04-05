@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('/public/assets/fonts/5.5/eot/IRANSansWeb_Medium.eot') format('embedded-opentype'),
+        url('/public/assets/fonts/5.5/woff2/IRANSansWeb_Medium.woff2') format('woff2'),
+        url('/public/assets/fonts/5.5/woff/IRANSansWeb_Medium.woff') format('woff'),
+        url('/public/assets/fonts/5.5/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.dir-rtl {
+    text-align: start;
+    direction: rtl;
+}
+
+ul li {
+    text-align: start;
+    margin: 0.5rem;
+}
+
+.text {
+    text-align: start;
+    margin: 1rem 0;
+}
+
+.img-style {
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.title {
+    font-size: 1.2rem !important;
+}
+
+input, textarea, select {
+    direction: rtl;
+}
+
+.text-c {
+    text-align: center;
+}
+
+
+
